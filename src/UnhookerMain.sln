@@ -1,0 +1,65 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "drvMain", "driver\drvMain\drvMain.vcproj", "{E33F5B4A-0598-43AF-93DE-99A1480DAF96}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F7F555F2-921C-4284-B79A-07B23EDAE692} = {F7F555F2-921C-4284-B79A-07B23EDAE692}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "drvUtils", "driver\drvUtils\drvUtils.vcproj", "{F7F555F2-921C-4284-B79A-07B23EDAE692}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "unhooker", "app\unhooker\unhooker.vcproj", "{649853B8-D7DF-43D6-BE47-E4694394BD7C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D43AFFA0-1605-4CA2-A4BA-B432B2501E6A} = {D43AFFA0-1605-4CA2-A4BA-B432B2501E6A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "utils", "app\utils\utils.vcproj", "{D43AFFA0-1605-4CA2-A4BA-B432B2501E6A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		checked = checked
+		Debug = Debug
+		free = free
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E33F5B4A-0598-43AF-93DE-99A1480DAF96}.checked.ActiveCfg = Release|Win32
+		{E33F5B4A-0598-43AF-93DE-99A1480DAF96}.checked.Build.0 = Release|Win32
+		{E33F5B4A-0598-43AF-93DE-99A1480DAF96}.Debug.ActiveCfg = Debug|Win32
+		{E33F5B4A-0598-43AF-93DE-99A1480DAF96}.Debug.Build.0 = Debug|Win32
+		{E33F5B4A-0598-43AF-93DE-99A1480DAF96}.free.ActiveCfg = Release|Win32
+		{E33F5B4A-0598-43AF-93DE-99A1480DAF96}.free.Build.0 = Release|Win32
+		{E33F5B4A-0598-43AF-93DE-99A1480DAF96}.Release.ActiveCfg = Release|Win32
+		{E33F5B4A-0598-43AF-93DE-99A1480DAF96}.Release.Build.0 = Release|Win32
+		{F7F555F2-921C-4284-B79A-07B23EDAE692}.checked.ActiveCfg = Release|Win32
+		{F7F555F2-921C-4284-B79A-07B23EDAE692}.checked.Build.0 = Release|Win32
+		{F7F555F2-921C-4284-B79A-07B23EDAE692}.Debug.ActiveCfg = Debug|Win32
+		{F7F555F2-921C-4284-B79A-07B23EDAE692}.Debug.Build.0 = Debug|Win32
+		{F7F555F2-921C-4284-B79A-07B23EDAE692}.free.ActiveCfg = Release|Win32
+		{F7F555F2-921C-4284-B79A-07B23EDAE692}.free.Build.0 = Release|Win32
+		{F7F555F2-921C-4284-B79A-07B23EDAE692}.Release.ActiveCfg = Release|Win32
+		{F7F555F2-921C-4284-B79A-07B23EDAE692}.Release.Build.0 = Release|Win32
+		{649853B8-D7DF-43D6-BE47-E4694394BD7C}.checked.ActiveCfg = Release|Win32
+		{649853B8-D7DF-43D6-BE47-E4694394BD7C}.checked.Build.0 = Release|Win32
+		{649853B8-D7DF-43D6-BE47-E4694394BD7C}.Debug.ActiveCfg = Debug|Win32
+		{649853B8-D7DF-43D6-BE47-E4694394BD7C}.Debug.Build.0 = Debug|Win32
+		{649853B8-D7DF-43D6-BE47-E4694394BD7C}.free.ActiveCfg = Release|Win32
+		{649853B8-D7DF-43D6-BE47-E4694394BD7C}.free.Build.0 = Release|Win32
+		{649853B8-D7DF-43D6-BE47-E4694394BD7C}.Release.ActiveCfg = Release|Win32
+		{649853B8-D7DF-43D6-BE47-E4694394BD7C}.Release.Build.0 = Release|Win32
+		{D43AFFA0-1605-4CA2-A4BA-B432B2501E6A}.checked.ActiveCfg = Release|Win32
+		{D43AFFA0-1605-4CA2-A4BA-B432B2501E6A}.checked.Build.0 = Release|Win32
+		{D43AFFA0-1605-4CA2-A4BA-B432B2501E6A}.Debug.ActiveCfg = Debug|Win32
+		{D43AFFA0-1605-4CA2-A4BA-B432B2501E6A}.Debug.Build.0 = Debug|Win32
+		{D43AFFA0-1605-4CA2-A4BA-B432B2501E6A}.free.ActiveCfg = Release|Win32
+		{D43AFFA0-1605-4CA2-A4BA-B432B2501E6A}.free.Build.0 = Release|Win32
+		{D43AFFA0-1605-4CA2-A4BA-B432B2501E6A}.Release.ActiveCfg = Release|Win32
+		{D43AFFA0-1605-4CA2-A4BA-B432B2501E6A}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

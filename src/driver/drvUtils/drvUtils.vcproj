@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.10"
+	Name="drvUtils"
+	ProjectGUID="{F7F555F2-921C-4284-B79A-07B23EDAE692}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="Debug"
+			ConfigurationType="0"
+			CharacterSet="2">
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="call $(SolutionDir)ddk_build.bat  $(BASEDIR) $(ConfigurationName) $(ProjectDir)"
+				ReBuildCommandLine="call $(SolutionDir)ddk_build.bat  $(BASEDIR) $(ConfigurationName) $(ProjectDir)"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="Release"
+			ConfigurationType="0"
+			CharacterSet="2">
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="call $(SolutionDir)ddk_build.bat  $(BASEDIR) $(ConfigurationName) $(ProjectDir)"
+				ReBuildCommandLine="call $(SolutionDir)ddk_build.bat  $(BASEDIR) $(ConfigurationName) $(ProjectDir)"/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath=".\drvCpp.cpp">
+			</File>
+			<File
+				RelativePath=".\drvFiles.cpp">
+			</File>
+			<File
+				RelativePath=".\drvSyncQueue.cpp">
+			</File>
+			<File
+				RelativePath=".\drvVirginity.cpp">
+			</File>
+			<File
+				RelativePath=".\drvVirginity2.cpp">
+			</File>
+			<File
+				RelativePath=".\pe_utils.c">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath=".\drv_NtDefinitions.h">
+			</File>
+			<File
+				RelativePath=".\drvCpp.h">
+			</File>
+			<File
+				RelativePath=".\drvExtensions.h">
+			</File>
+			<File
+				RelativePath=".\drvFiles.h">
+			</File>
+			<File
+				RelativePath=".\drvSmart.h">
+			</File>
+			<File
+				RelativePath=".\drvSync.h">
+			</File>
+			<File
+				RelativePath=".\drvSyncQueue.h">
+			</File>
+			<File
+				RelativePath=".\drvUtils.h">
+			</File>
+			<File
+				RelativePath=".\drvVirginity.h">
+			</File>
+			<File
+				RelativePath=".\drvVirginity2.h">
+			</File>
+			<File
+				RelativePath=".\pe_utils.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx"
+			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}">
+		</Filter>
+		<File
+			RelativePath=".\Makefile">
+		</File>
+		<File
+			RelativePath=".\Sources">
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

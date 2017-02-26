@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.10"
+	Name="drvMain"
+	ProjectGUID="{E33F5B4A-0598-43AF-93DE-99A1480DAF96}">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="..\..\bin\Debug"
+			IntermediateDirectory="..\..\obj\Debug\lsvMain"
+			ConfigurationType="0">
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="call $(SolutionDir)ddk_build.bat  $(BASEDIR) $(ConfigurationName) $(ProjectDir)"
+				ReBuildCommandLine="call $(SolutionDir)ddk_build.bat  $(BASEDIR) $(ConfigurationName) $(ProjectDir)"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="..\..\bin\Release"
+			IntermediateDirectory="..\..\obj\Release\lsvMain"
+			ConfigurationType="0">
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="call $(SolutionDir)ddk_build.bat  $(BASEDIR) $(ConfigurationName) $(ProjectDir)"
+				ReBuildCommandLine="call $(SolutionDir)ddk_build.bat  $(BASEDIR) $(ConfigurationName) $(ProjectDir)"/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm">
+			<File
+				RelativePath=".\drvMain.cpp">
+			</File>
+			<File
+				RelativePath=".\drvUnhookerDevice.cpp">
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc">
+			<File
+				RelativePath=".\drvCommonPortableDefs.h">
+			</File>
+			<File
+				RelativePath=".\drvUnhookerDevice.h">
+			</File>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter=".rc;.mc;.mof">
+		</Filter>
+		<File
+			RelativePath=".\Makefile">
+		</File>
+		<File
+			RelativePath=".\Sources">
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

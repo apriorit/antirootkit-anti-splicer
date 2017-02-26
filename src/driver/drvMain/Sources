@@ -1,0 +1,19 @@
+TARGETNAME=drvUnhooker
+TARGETPATH=..\..\..\bin\$(PROJECT_CONFIGURATION_NAME)
+TARGETTYPE=DRIVER
+DRIVERTYPE=FS
+
+MSC_WARNING_LEVEL = /W1
+
+INCLUDES=..\drvUtils;
+
+TARGETLIBS= $(BASEDIR)\lib\w2k\i386\ntoskrnl.lib \
+	$(BASEDIR)\lib\w2k\i386\hal.lib \
+	$(BASEDIR)\lib\w2k\i386\ntstrsafe.lib \
+	$(BASEDIR)\lib\w2k\i386\ndis.lib \
+	$(BASEDIR)\lib\w2k\i386\tdi.lib \
+	..\..\..\lib\$(PROJECT_CONFIGURATION_NAME)\*\drvUtils.lib	\
+	
+SOURCES = \
+    drvMain.cpp \
+    drvUnhookerDevice.cpp 

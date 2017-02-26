@@ -1,0 +1,16 @@
+TARGETNAME=drvUtils
+TARGETPATH=..\..\..\lib\$(PROJECT_CONFIGURATION_NAME)
+TARGETTYPE=DRIVER_LIBRARY
+DRIVERTYPE=FS
+
+MSC_WARNING_LEVEL = /W1
+
+INCLUDES=
+
+SOURCES=\
+    drvCpp.cpp \
+    drvFiles.cpp \
+    drvSyncQueue.cpp \
+    drvVirginity.cpp \
+    pe_utils.c \
+    drvVirginity2.cpp
